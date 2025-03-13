@@ -1,0 +1,61 @@
+﻿#leftcolumn {
+	padding:0;
+	margin:0;
+	float:left;
+	width:192px;
+	font: 12px "微軟正黑體", Verdana, Arial, Helvetica;
+	background: none;
+}
+
+.flyout_menu {
+	padding:0;
+	margin:0;
+	display:block;
+	position:relative;
+	color: #FFF;
+	background: none;
+}
+.flyout_menu dt {
+	width:188px;
+	border:1px solid #333;
+	padding:8px; 
+	font-weight:bold; 
+	cursor:pointer; 
+	background:url(../images/bossmng/bg_menu.png);
+}
+.flyout_menu .upperdd {border-bottom:none;}
+.flyout_menu dt:hover {background:url(../images/bossmng/bg_menuOn.png)}
+.flyout_menu dd {padding:0;margin:0;position:absolute; top:0; overflow:hidden; width:208px; display:none; opacity:0}
+.flyout_menu ul {padding:0;margin:0; border:1px solid #000; list-style:circle}
+.flyout_menu li {display:inline;}
+.flyout_menu a, .flyout_menu a:active, .flyout_menu a:visited {
+	display:block;
+	padding:6px;
+	color:#FFF;
+	text-decoration:none;
+	background:url(../images/bossmng/bg_menu.png);
+	width:194px;
+}
+.flyout_menu a:hover {
+	background:url(../images/bossmng/bg_menuOn.png);
+	color:#FFF
+}
+.flyout_menu .underline {border-bottom:1px solid #111}
+
+.ff {
+	width:204px;
+	height: 5px;
+	border:1px solid #333;
+	background: #333;
+}
+.ff-ver {
+	width:204px;
+	height: 25px;
+	border:1px solid #333;
+	background: #333;	 
+}
+.ff-ver div {
+	margin: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+}

@@ -1,0 +1,199 @@
+﻿/* Float Clearing
+ ---------------------------------------------------------------------*/
+
+.module:after
+{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* float clearing for IE6 */
+* html .module
+{
+	height: 1%;
+	overflow: visible;
+}
+
+/* float clearing for IE7 */
+* + html .module
+{
+	min-height: 1%;
+}
+
+/* navigator Styles
+ ---------------------------------------------------------------------*/
+#navigator
+{
+	width: 100%;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	border: solid 1px #dedede;
+	background: #666;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	opacity: 0.6;
+}
+
+#navigator a {
+	COLOR: #DDD; TEXT-DECORATION: underline;
+}
+#navigator a:hover {
+	COLOR: #FFF; TEXT-DECORATION: underline;
+}
+
+#navigator ul
+{
+	margin: 5px;
+	padding: 0px;
+	height: 21px;
+	display: block;
+}
+#navigator ul li
+{
+	display: block;
+	float: left;
+	position: relative;
+	height: 21px;
+	overflow: hidden;
+	line-height: 21px;
+	margin: 0px 6px 0px 0;
+	padding: 0px 10px 0px 0;
+	font-size: 12px;
+	background: url(../images/navigator/Chevron.gif) no-repeat 100% 0;
+}
+#navigator ul li div.chevronOverlay
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+#navigator ul li span
+{
+	display: block;
+	overflow: hidden;
+}
+#navigator ul li a
+{
+	display: block;
+	position: relative;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	float: left;
+}
+#navigator ul li.first a
+{
+	height: 16px !important;
+	text-indent:-1000em;
+	width:16px;
+	padding: 0;
+	margin-top: 2px;
+	overflow: hidden;
+	background: url(../images/navigator/IconHome.gif) no-repeat 0 0;
+	opacity: 1.0;
+}
+#navigator ul li.first a:hover
+{
+	background-position: 0 -16px;
+}
+#navigator ul li.last
+{
+	background: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+.chevronOverlay
+{
+	display: none;
+	background: url(../images/navigator/ChevronOverlay.png) no-repeat 100% 0;
+	width: 13px;
+	height: 20px;
+}
+
+#navigators
+{
+	width: 100%;
+	height: 30px;
+	margin: -50px auto 30px auto;
+	padding: 0px;
+	border: solid 1px #dedede;
+	background: #DDD;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+}
+
+#navigators a {
+	COLOR: #06F; TEXT-DECORATION: underline;
+}
+#navigators a:hover {
+	COLOR: #09F; TEXT-DECORATION: underline;
+}
+
+#navigators ul
+{
+	margin: 5px;
+	padding: 0px;
+	height: 21px;
+	display: block;
+}
+#navigators ul li
+{
+	display: block;
+	float: left;
+	position: relative;
+	height: 21px;
+	overflow: hidden;
+	line-height: 21px;
+	margin: 0px 6px 0px 0;
+	padding: 0px 10px 0px 0;
+	font-size: 12px;
+	background: url(../images/navigator/Chevron.gif) no-repeat 100% 0;
+}
+#navigators ul li div.chevronOverlay
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+#navigators ul li span
+{
+	display: block;
+	overflow: hidden;
+}
+#navigators ul li a
+{
+	display: block;
+	position: relative;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	float: left;
+}
+#navigators ul li.first a
+{
+	height: 16px !important;
+	text-indent:-1000em;
+	width:16px;
+	padding: 0;
+	margin-top: 2px;
+	overflow: hidden;
+	background: url(../images/navigator/IconHome.gif) no-repeat 0 0;
+}
+#navigators ul li.first a:hover
+{
+	background-position: 0 -16px;
+}
+#navigators ul li.last
+{
+	background: none;
+	margin-right: 0;
+	padding-right: 0;
+}

@@ -1,0 +1,479 @@
+﻿@charSet "utf-8";
+
+HTML {
+	width: 100%;
+	height: 100%;
+}
+BODY {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background: url(../images/bossmng/bg.gif);
+}
+TD {
+	font-size: 12px;
+	font-family: "微軟正黑體", Calibri, Arial, Helvetica, sans-serif;
+	color: #333333; 
+}
+INPUT, SELECT {
+	PADDING: 3px 5px;
+	COLOR: #000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	BORDER: #4B708D 1px solid;
+	BACKGROUND: url(../images/mark/inputbg.jpg) repeat-x left top;
+}
+HR {
+	border: 1px #CCC solid;
+}
+a, ul, ol, li, dl, dt, button, input {
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.clearitem {
+	border: 0px;
+	background: none;
+}
+.clearfix {
+	clear: both;
+	content: "";
+}
+
+.bossindex {
+	width: 100%;
+	height: 33%;
+	margin: 0px;
+	padding: 0px;
+}
+.bossindexTable {
+	width: 100%;
+	background: url(../images/bossmng/bg_bossindex.png) top center no-repeat;
+}
+.bossindexTitle {
+	height: 79px;
+	margin: 26px auto 0px 38%;
+	font-size: 1.8em;
+	font-weight: lighter;
+	color: #FFF;
+	text-decoration: none;
+}
+.loginbtn {
+	border: none;
+}
+
+/* bossIntro */
+#bossIntro {
+	width: 98%;
+	height: auto;
+	display:block;
+	list-style: none;
+}
+#bossIntro li {
+	float: left; 
+	margin: 0px;
+	width: 140px;
+	height: 120px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Arial, "微軟正黑體", "Microsoft JhengHei", Calibri, Helvetica, sans-serif;
+	color: #333333; 
+}
+#bossIntro a {
+	text-decoration: underline;
+	font-weight: 700;
+	color: #069;
+}
+#bossIntro a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+
+/* menu */
+.menu {
+	font-family: "微軟正黑體", Calibri, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#06F;
+	text-decoration: underline;
+}
+.menu A:link {
+	COLOR: #06F; TEXT-DECORATION: underline
+}
+.menu A:visited {
+	COLOR: #06F; TEXT-DECORATION: underline
+}
+.menu A:active {
+	COLOR: #F00; TEXT-DECORATION: underline
+}
+.menu A:hover {
+	COLOR: #F00; TEXT-DECORATION: underline
+}
+
+/* title */
+.title {
+	font-family: "微軟正黑體", Calibri, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.title A:link {
+	COLOR: #000; TEXT-DECORATION: underline;
+}
+.title A:visited {
+	COLOR: #555; TEXT-DECORATION: underline;
+}
+.title A:active {
+	COLOR: #F00; TEXT-DECORATION: underline;
+}
+.title A:hover {
+	COLOR: #900; TEXT-DECORATION: underline;
+}
+
+/* tt */
+.tt {
+	font-family: "微軟正黑體", Calibri, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 1.6em;
+	text-decoration: none;
+	background: #555 url(../images/bossmng/bg_tt.png) top repeat-x;
+}
+.tt A:link {
+	COLOR: #FFF; TEXT-DECORATION: underline;
+}
+.tt A:visited {
+	COLOR: #FFF; TEXT-DECORATION: underline;
+}
+.tt A:active {
+	COLOR: #FFF; TEXT-DECORATION: underline;
+}
+.tt A:hover {
+	COLOR: #FFF; TEXT-DECORATION: underline;
+}
+.tts {
+	width: 5px;
+	height: 8px;
+	margin-top: 3px;
+	float: left;
+	cursor: pointer;
+	background: url(../images/icons/icon_sort.gif) left center no-repeat;
+}
+.tts1 {
+	width: 5px;
+	height: 8px;
+	margin-top: 3px;
+	float: left;
+	cursor: pointer;
+	background: url(../images/icons/icon_sort.gif) left 3px no-repeat;
+}
+.tts2 {
+	width: 5px;
+	height: 8px;
+	margin-top: 3px;
+	float: left;
+	cursor: pointer;
+	background: url(../images/icons/icon_sort.gif) left -3px no-repeat;
+}
+.ttsr {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.subItem {
+	padding-left: 36px;
+}
+
+/* date */
+.date {
+	font-size: 12px;
+	font-weight: normal;
+	color: #555;
+	text-decoration: none;
+}
+
+/* errMsg */
+.errMsg {
+	font-family: "微軟正黑體", Calibri, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F00;
+}
+
+/* note */
+.note {
+	font-size: 10px;
+	font-weight: normal;
+	color:#6C3;
+}
+
+/* pk */
+.pk {
+	font-size: 12px;
+	font-weight: normal;
+	color: #686868;
+}
+.boss_hd {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #333; line-height: 18px;
+}
+
+/* gallery */
+.gallery{
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+
+/* white */
+.white10, .white10 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #FFF;
+}
+.white10b, .white10b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #FFF;
+}
+.white11, .white11 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #FFF;
+}
+.white11b, .white11b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #FFF;
+}
+.white12, .white12 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFF; line-height: 18px;
+}
+.white12 a:hover {
+	COLOR: #FF9;
+}
+.white12b, .white12b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #FFF; line-height: 18px;
+}
+.white13, .white13 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #FFF; line-height: 18px;
+}
+.white13 a:hover {
+	COLOR: #FF9;
+}
+.white13b, .white13b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #FFF; line-height: 18px;
+}
+/* black */
+.black10, .black10 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000;
+}
+.black10b, .black10b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000;
+}
+.black11, .black11 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000;
+}
+.black11b, .black11b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000;
+}
+.black12, .black12 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000; line-height: 18px;
+}
+.black12b, .black12b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000; line-height: 18px;
+}
+.black13, .black13 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000; line-height: 18px;
+}
+.black13b, .black13b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000; line-height: 18px;
+}
+/* red */
+.red10, .red10 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #F00;
+}
+.red10b, .red10b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #F00;
+}
+.red11, .red11 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #F00;
+}
+.red11b, .red11b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #F00;
+}
+.red12, .red12 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px;	COLOR: #F00; line-height: 18px;
+}
+.red12b, .red12b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #F00; line-height: 18px;
+}
+/* blue */
+.blue10, .blue10 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #06B;
+}
+.blue10b, .blue10b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #06B;
+}
+.blue11, .blue11 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #06B;
+}
+.blue11b, .blue11b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #06B;
+}
+.blue12, .blue12 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #06B; line-height: 18px;
+}
+.blue12b, .blue12b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #06B; line-height: 18px;
+}
+/* green */
+.green10, .green10 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #090;
+}
+.green10b, .green10b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #090;
+}
+.green11, .green11 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #090;
+}
+.green11b, .green11b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #090;
+}
+.green12, .green12 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #090; line-height: 18px;
+}
+.green12b, .green12b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #090; line-height: 18px;
+}
+/* gray */
+.gray10, .gray10 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #888;
+}
+.gray10b, .gray10b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #888;
+}
+.gray11, .gray11 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #888;
+}
+.gray11b, .gray11b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #888;
+}
+.gray12, .gray12 a {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #888; line-height: 18px;
+}
+.gray12b, .gray12b a {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #888; line-height: 18px;
+}
+
+
+/* bossmenu_old */
+#menu ul{
+list-style-type: none;
+margin: 0px;padding: 0px;
+}
+#menu li{
+	padding:0; background:url(../images/bossmng/bg-h.gif) bottom left no-repeat; margin-left:18px;
+}
+#menu ol{
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 0px 5px 15px;
+	text-transform:capitalize;
+	background-color: #666666;
+}
+#menu a{
+	width: 160px;
+	background: url(img/s_1.gif) no-repeat left center;
+	padding-left: 20px;
+	display: block;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-decoration:none
+}
+#menu a:hover{
+	background: url(img/img_2.gif) no-repeat left center;
+	color:#3438CB;
+	background-color: #EFF4F5;
+}
+
+/* searcher */
+#searcher {
+	background-color: #CCC;
+	border: solid 1px #AAA;
+	color: #000;
+	opacity: 0.7;
+}
+#searcher .srchs {
+	margin-left: 3px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #888;
+}
+#searcher .srchsOn {
+	margin-left: 3px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+}
+.srchbtn {
+	margin-left: 3px;
+	width: 60px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	background: #333 url(../images/bossmng/bg_btn.gif) top repeat-x;
+	border: #000 1px solid;
+}
+.btn {
+	margin-left: 3px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	background: #333 url(../images/bossmng/bg_btn.gif) top repeat-x;
+	border: #000 1px solid;
+}
+
+
+/* formFields 表單設定 -------------------------------------------- */
+#formFields {
+	display: block;
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+#formFields div {
+	margin: 5px 0px;
+	padding: 20px;
+	float: left;
+	line-height: 2em;
+	box-sizing: border-box;
+}
+#formFields div:hover {
+	background-color: #ddd;
+}
+#formFields div.clearfix {
+	float: none;
+	margin: 0;
+	padding: 0;
+	line-height: 0em;
+	clear: both;
+	content: "";
+}
+#formFields img {
+	display: inline-block;
+	margin: 8px 0px;
+}
+#formFields input {
+	display: inline-block;
+	margin: 3px;
+}
+
+.form_filedSetup label.seleft {
+	display: inline-block;
+	margin-bottom: 8px
+}
+.form_filedSetup div.ff_name {
+	display: inline-block;
+	width: 100px;
+}
+.form_filedSetup div.ff_image {
+	display: inline-block;	
+}
