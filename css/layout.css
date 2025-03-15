@@ -9889,9 +9889,9 @@ img.riceright{    position: absolute;    top: 40%; right: 0px; z-index: -9;}
 .conun .conleft{ color: #626b32;     font-size: 16px;   padding-right: 10px;}
 .conun .conright,.conun .conright a{    color: #3e281a;transition: all 0.5s linear;}
 .conun .conright a:hover{color: #d39002;}
-.fooinfor{    padding: 0px 10px;}
+.fooinfor{    padding: 0px 10px; display: flex; justify-content: space-between;}
 .fooinfor span{    vertical-align: top;
-    padding-right: 24px;
+    padding-right: 12px;
     color: #FFF;}
 .fooinfor span a{
  vertical-align: top;
