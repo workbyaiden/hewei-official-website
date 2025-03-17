@@ -7288,6 +7288,14 @@ Main components
     display: none;
   }
 
+.cotabg {
+  min-height: 60vh;
+}
+
+.cowboybg {
+  min-height: 125vh;
+}
+
 
 
 /* #Home Parallax
@@ -10148,6 +10156,10 @@ img.QRcode{width: 100px;}
 /*平板以下 通用*/
 @media only screen and (max-width : 768px){img.riceleft,img.riceright{display: none;}
 
+.fooinfor {
+  flex-wrap: wrap;
+  gap:10px;
+}
 
 .portfolio-box-2 h6{border: none;}
 
